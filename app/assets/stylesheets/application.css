@@ -31,6 +31,10 @@
   margin-bottom: 20px;
 }
 
+.buffer-left {
+  margin-left: 20px;
+}
+
 /* Avatars for users & events */
 .img-icon, .img-icon-small {
   height: 50px;
@@ -58,3 +62,7 @@
   padding: 20px 4px 4px;
 }
 
+.wrapper-end {
+  display: flex;
+  justify-content: flex-end;
+}
