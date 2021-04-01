@@ -14,8 +14,8 @@
  *= require_self
  */
 
-@import "bootstrap-sprockets";
-@import "bootstrap";
+ @import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 /* Наши дополнительные стили для оформления отступов и тамбинашек картинок */
 
