@@ -61,8 +61,3 @@
 .thumbnail-inner {
   padding: 20px 4px 4px;
 }
-
-.wrapper-end {
-  display: flex;
-  justify-content: flex-end;
-}
