@@ -14,7 +14,7 @@
  *= require_self
  */
 
- @import 'bootstrap/dist/css/bootstrap.min.css';
+ @import "~bootstrap/scss/bootstrap";
 
 
 /* Наши дополнительные стили для оформления отступов и тамбинашек картинок */
