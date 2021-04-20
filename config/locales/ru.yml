@@ -1,14 +1,17 @@
 ---
 ru:
+  #множественное число 
   mistakes:
     one: '%{count} ошибка'
     few: '%{count} ошибки'
     many: '%{count} ошибок'
+
   activerecord:
     # Перевод названия моделей
     models:
       user: 'Пользователь'
       event: 'Событие'
+
     # Перевод атрибутов моделей
     attributes:
       user:
@@ -27,6 +30,8 @@ ru:
         restrict_dependent_destroy:
           has_one: 'Невозможно удалить запись, так как существует зависимость: %{record}'
           has_many: 'Невозможно удалить запись, так как существуют зависимости: %{record}'
+
+  # Перевод сообщений, которые отправляет контроллер
   controllers:
     events:
       created: 'Вы создали новое мероприятие'
@@ -34,9 +39,29 @@ ru:
       destroyed: 'Вы удалили мероприятие :('
     users:
       updated: 'Вы обновили свой профиль'
+    comments:
+      destroyed: 'Комментарий удален'
+      created: 'Ваш комментарий добавлен'
+      error: 'Ошибка с комментарием'
+    subscriptions:
+      created: 'Вы подписаны на это событие'
+      destroyed: 'Участник отписан'
+      error: 'Подписка/отписка не сработала'
+  
   app:
     name: 'Шашлыки'
     company: 'Линкер Алексей'
+
+  comments:
+    comment:
+      destroy_confirm: 'Вы уверены, что хотите удалить этот комменатрий?'
+
+  subscriptions:
+    subscription:
+      destroy_confirm: 'Вы уверены, что хотите удалить эту подписку?'
+
+
+  #Базовый перевод i18n
   date:
     abbr_day_names:
     - Вс
