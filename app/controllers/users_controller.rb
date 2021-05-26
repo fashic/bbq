@@ -27,7 +27,7 @@ class UsersController < ApplicationController
   private
     # Пропишем, что разрешено передавать в params
     def user_params
-      params.require(:user).permit(:name, :email)
+      params.require(:user).permit(:name, :email, :avatar)
     end
 
     def set_current_user

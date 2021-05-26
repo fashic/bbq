@@ -17,6 +17,10 @@ gem 'bootstrap', '~> 5.0.0.beta2'
 
 gem 'jquery-rails'
 
+# Гем для обработки изображений
+gem 'carrierwave', '~> 0.11.2'
+gem 'rmagick', '~> 4.2', '>= 4.2.2'
+
 # Гем для перевода сообщений девайса
 gem 'devise-i18n'
 
