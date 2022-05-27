@@ -1,6 +1,6 @@
 class Event < ApplicationRecord
   # Событие принадлежит юзеру
-  belongs_to :user
+  belongs_to :user, optional: true
 
   
   # У события много комментариев и подписок
